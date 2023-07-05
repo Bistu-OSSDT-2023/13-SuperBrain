@@ -84,7 +84,9 @@ public class Client extends MyFrame{
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("幼圆", Font.BOLD, 30));
 		g.drawString("最高分:"+BlockLoader.bestScore+"",Constant.BACK_RIGHT_IN_X+Constant.BLOCK_SPACE-250, Constant.BACK_Y-50);
-		
+		g.setColor(Color.GRAY);
+		g.setFont(new Font("操作：↓ ↑ → ←",Font.BOLD, 30));
+		g.drawString("操作：↓ ↑ → ←",Constant.BACK_RIGHT_IN_X+Constant.BLOCK_SPACE-400, Constant.BACK_Y+650);
 	}
 	/**
 	 * 画背景
