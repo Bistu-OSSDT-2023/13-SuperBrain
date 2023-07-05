@@ -24,23 +24,26 @@ public class Constant {
 	
 
 	public static final String IMG_PRE = "SuperBrain/img/";
-	public static final Color COLOR_BACK = new Color(187, 173, 160);
-	public static final Color COLOR_BLOCK_BACK = new Color(205, 192, 180);
+	public static final Color COLOR_BACK = new Color(187,173, 160);//格子边框
+	public static final Color COLOR_BLOCK_BACK = new Color(205, 192, 180);//格子
+	public static final Color COLOR_BLOCK_FRAME = new Color(221,200,163);//背景
+	public static final Color COLOR_BLOCK_Client1 = new Color(143,75,44);
+	public static final Color COLOR_BLOCK_Client2 = new Color(176,122,44);
 
 	public static final Color COLOR_BLOCKS_ACTIVE[] = new Color[] { 
-					new Color(238, 228, 218), //2
-					new Color(237, 224, 200),//4
-					new Color(242, 177, 121), //8
-					new Color(245, 149, 99), //16
-					new Color(255, 204, 0),//32
-					new Color(153, 255, 153) ,//64
-					new Color(204, 204, 0),//128
-					new Color(255, 204, 102),//256
-					new Color(255, 80, 80),//512
-					new Color(102, 102, 255),//1024
-					new Color(204, 0, 102),//2048
-					new Color(153, 102, 0),//4096
-					new Color(153, 0, 153)//8192
+	
+      new Color(0xeee4da),
+      new Color(0xede0c8),
+      new Color(0xf2b179),
+      new Color(0xf59563),
+      new Color(0xf67c5f),
+      new Color(0xf65e3b),
+      new Color(0xedcf72),
+      new Color(0xedcc61),
+      new Color(0xedc850),
+      new Color(0xedc53f),
+      new Color(0xedc22e),
+      new Color(0x248c51),
 	};
 
 }
