@@ -73,13 +73,13 @@ public class Client extends MyFrame{
 	 * 画分数
 	 */
 	private void drawScore(Graphics g) {
-		g.setColor(Color.RED);
+		g.setColor(Constant.COLOR_BLOCK_Client1);
 		g.fillRoundRect(Constant.BACK_X, Constant.BACK_Y-100, 220, 80, 10, 10);
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("幼圆", Font.BOLD, 30));
 		g.drawString("分数:"+BlockLoader.score+"",Constant.BACK_X, Constant.BACK_Y-50);
 		
-		g.setColor(Color.GREEN);
+		g.setColor(Constant.COLOR_BLOCK_Client2);
 		g.fillRoundRect(Constant.BACK_RIGHT_IN_X+Constant.BLOCK_SPACE-250, Constant.BACK_Y-100, 250, 80, 10, 10);
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("幼圆", Font.BOLD, 30));
