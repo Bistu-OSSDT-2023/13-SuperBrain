@@ -41,6 +41,17 @@ public class Client extends MyFrame{
 				e.printStackTrace();
 			}
 		}else{
+			
+                g.setColor(new Color(64, 64, 64, 150));
+	        g.fillRect(0, 0, getWidth(), getHeight());  // 画矩形
+	        g.setColor(Color.WHITE);  // 画笔颜色为白色
+	        g.setFont(new Font("幼圆", Font.BOLD, 50));
+	        FontMetrics fm = getFontMetrics(new Font("幼圆", Font.BOLD, 50));
+	        String value = "Game Over!";  // 内容: Game Over!
+	        g.drawString(value,
+	                (getWidth() - fm.stringWidth(value)) / 2,
+	                getHeight() / 2);
+
 			if(!gameStart&flag)
 				gameReset();
 		}
