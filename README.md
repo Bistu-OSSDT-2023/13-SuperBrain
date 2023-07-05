@@ -1,7 +1,7 @@
 # 13-SuperBrain
 # 项目说明：
 此项目为益智游戏《2048》的实现项目。其为GitHub上2048游戏的拓展开发。对页面、功能等方面进行了优化。
-# 游戏玩法:
+# 游戏玩法及游戏界面展示：
 初始数字是基数2。    
 <img width="664" alt="4399d60a3119cd1b1078eb796b6b661" src="https://github.com/Bistu-OSSDT-2023/13-SuperBrain/assets/138183517/5de6ad51-58bc-4c15-9a9f-a65402f750e3">
 
@@ -22,5 +22,4 @@
 我们计划将此项目先向周围人进行推广，取得他们的意见，对功能进行添加或修改。
 # 许可证：
 MIT  
-# 游戏界面展示：
-![image](https://github.com/Bistu-OSSDT-2023/13-SuperBrain/assets/138182922/bdcae36d-bd97-45f5-8649-3277878e943d)
+
