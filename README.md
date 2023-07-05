@@ -5,7 +5,7 @@
 赵若涵：ChilliZhao   
 徐欣悦：xuxinyue341   
 白曼昀：BaiMY03   
-族丽米和热：mhr0852   
+族丽米合热：mhr0852   
 # 许可证：
 MIT  
 # 游戏界面展示：
